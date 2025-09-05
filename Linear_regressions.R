@@ -1,5 +1,3 @@
-# Lab 9
-
 # 1.1 Simple linear regression - another example
 
 data("mtcars")
@@ -199,3 +197,4 @@ summary(Prestige.lm2)
 # for the slope of the line we report t-value
 # since the p-value of the "income" is <0.05, we can say that
 # the slope is significantly different from 0.
+
