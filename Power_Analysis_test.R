@@ -1,6 +1,4 @@
-### lab 12
-
-# power analysis and multiple explanatory variables
+#### power analysis and multiple explanatory variables
 
 # 1.1 power analysis
 ? power.prop.test
@@ -212,3 +210,4 @@ leveneTest(residuals(lmpoison) ~ poisons$treat)
 # failed equal variance
 
 #
+
