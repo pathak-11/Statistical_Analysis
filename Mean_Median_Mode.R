@@ -1,4 +1,5 @@
-# Assignment 1
+### basic maths / mean, median. mode
+
 # Creating object
 
 yeast <- c(0.86, 1.02, 1.02, 1.01, 1.02, 1, 0.99, 1.01, 0.91, 0.83, 1.01)
@@ -44,3 +45,4 @@ hist(yeast,
           main = "Growth Rate of Yeast",
           xlab = "Growth rate (no. of cells/hour",
           col = "pink")
+
