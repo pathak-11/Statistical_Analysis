@@ -1,4 +1,4 @@
-# Lab 3 - Stats - KP
+#### data plotting in R
 
 library(ggplot2)
 
@@ -158,3 +158,4 @@ ggplot(Vegetation,
   geom_boxplot()+
   theme_classic()
  
+
