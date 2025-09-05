@@ -1,5 +1,3 @@
-# lab 5 Stat
-
 # contingency analysis
 
 #answer the question does two categorical variables have an association
@@ -265,3 +263,4 @@ chisq.test(treefate)
 # conclusion
 # since our p-value(0.037) is less than 0.05, we rejected the null hypothesis. 
 # meaning tree death is related to the aspect. (chi-square value = 8.5, df = 3, p-value = 0.037)
+
