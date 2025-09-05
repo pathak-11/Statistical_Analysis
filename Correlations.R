@@ -1,5 +1,3 @@
-########### Lab 8------------
-
 # 1.1 Correlations
 
 bird <- read.csv("Sparrows.csv")
@@ -264,4 +262,5 @@ abline(h=0) # meets assumption of linear relationship
 
 # Meets all assumptions of simple linear regression
 # Y= -0.03 + 0.02X # Equation of the line
+
 
