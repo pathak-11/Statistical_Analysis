@@ -1,5 +1,3 @@
-### Stats lab 6 
-
 ## 1.1 dplyr
 
 install.packages("car")
@@ -170,3 +168,4 @@ ggplot(Kp3 , aes(x = UniqueCarrier, y = meanDistance,
   geom_errorbar()+ # adds the error bars
   xlab("Unique Carrier")+
   ylab("Distance")
+
