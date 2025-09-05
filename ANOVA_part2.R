@@ -1,5 +1,3 @@
-### Lab 11
-
 # 1.1 ANOVA
 
 # 1.2 Welch's one-way Anova (normal, unequal variance)
@@ -220,3 +218,4 @@ library(multcomp)
 airquality.aov <- aov(Temp ~ Month, data = airquality)
 airquality.tukey <- glht(airquality.aov, linfct = mcp(Month = "Tukey"))
 cld(airquality.tukey)
+
