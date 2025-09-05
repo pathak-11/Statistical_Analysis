@@ -1,4 +1,4 @@
-#Lab 2 - Stats objects and Data Frames
+## objects and Data Frames
 
 #First lets set the working directory to where we want it to be 
 # Go to sessions > set working directory > select folder the 
@@ -219,3 +219,4 @@ mean(Female_birds$Head) #30.56
 sd(Female_birds$Head) #0.25
 mean(Female_birds$Weight) #15.3
 sd(Female_birds$Weight) #0.4
+
