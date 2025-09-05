@@ -1,6 +1,15 @@
-## Assignment 4
-
 # question 1. chapter 12, question 19
+
+# Chapter 12, Q19 [13 points] 
+# Researchers studying the number of electric fish species living in various parts of the Amazon basin were interested in whether the presence of tributaries affected the 
+# local number of electric fish species in the main rivers (Fernandes et al. 2004). They counted the number of electric fish species above and below the entrance point of a 
+# major tributary at 12 different river locations. Here’s what they found: 
+# a.	What is the mean difference in the number of species between areas upstream and downstream of a tributary? What is the 95% confidence interval of this mean difference?
+# b. Test the hypothesis that the tributaries have no effect on the number of species of electric fish. 
+# c. State the assumptions that you had to make to complete parts 
+# null hypothesis, correct test, assumption test
+
+
 electricfish <- read.csv("chap12q19ElectricFish.csv")
 electricfish
 head(electricfish)
@@ -69,3 +78,4 @@ leveneTest(viralTiter~strain, data = dengue)
 
 # non-parametric test, wilcox rank-sum test
 wilcox.test(viralTiter~strain, data = dengue)
+
