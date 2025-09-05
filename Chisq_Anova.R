@@ -1,5 +1,10 @@
-##### Assignment 7---------
+# question 
 
+
+# a)	Is there an association between total number of species in the seed bank, and mean temperature? 
+# b) Is there an association between biome zone and type of habitat? 
+# c) What predicts total number of species in the seed bank? Consider the explanatory variables habitat type, if the habitat is degraded, 
+# as well as the interaction between them. 
 
 seedbank_all <- read.csv("gsb_db.csv")
 seedbank_all
@@ -185,3 +190,4 @@ summary(lmseed)
 # there is significant effect of habitat type on total number of species (F3,2592 = 24.86, P< 0.001)
 # there is significant effect of habitat type and habitat degradation (F3, 2592 = 2.80, P< 0.04)
 # there is no significant effect of habitat degradation alone(F 1,2592 = 0.0004, P= 0.98)
+
