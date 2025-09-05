@@ -1,4 +1,4 @@
- # Lab 4 Binomial, X2, and Goodness of Fit Test
+ # Binomial, X2, and Goodness of Fit Test
 
 # 1.1 Probability Distribution Function in R
 
@@ -18,7 +18,7 @@ pnorm(2, mean = 3, sd =2)
 dbinom(x =3, size = 10, prob = 0.2)
 dbinom(x =5, size = 10, prob = 0.2)
 
-# Class Exercise
+# Exercise
 #this is also asking how many success we get
 
 dbinom( x = 2, size =6, prob = 0.1) # just giving the change of getting 2 successes if the percentage is 10%
@@ -143,3 +143,4 @@ chisq.test(observed, p=expected)
 
 # since the p-value is <0.05 we reject the Ho. the births of groundhog is not equally distributed over two week sections
 #(x2 = 12.64, df =2, p-value= 0.002)
+
