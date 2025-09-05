@@ -1,4 +1,4 @@
-# Lab 7
+#### T-test 
 
 pnorm()
 pnorm(1)
@@ -237,3 +237,4 @@ sd(spider.diff$diff)/sqrt(15)
 # reject the null hypothesis, spiders run on average 
 # 1.2cm/s faster after
 # amputation (SE = 0.28, t =4.42, df = 15, P< 0.001)
+
