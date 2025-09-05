@@ -1,4 +1,5 @@
-###### Lab 13----------
+#Linear mixed effects and Random effects
+
 
 plantsco2 <- read.csv("plantCO2.csv")
 plantsco2
@@ -190,5 +191,6 @@ plot(beetle.lm)
 
 boxplot(residuals(beetle.lm) ~ beetles$genotype)
 # looks equal variance
+
 
 
