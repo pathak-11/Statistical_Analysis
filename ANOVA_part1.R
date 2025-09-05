@@ -1,5 +1,3 @@
-#### lab 10
-
 # 1.1 ANOVA
 
 nectar <- read.csv("https://whitlockschluter3e.zoology.ubc.ca/Data/chapter15/chap15q01HoneybeeCaffeine.csv",header = TRUE)
@@ -206,3 +204,4 @@ TukeyHSD(aov(conemass ~ habitat, data =cones))
 # island absent - B
 # island present - A
 # mainland present - A
+
