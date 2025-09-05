@@ -1,6 +1,12 @@
-## Assignment 5
-
 # chapter 16, question 24
+
+# Biopsy is often used to distinguish cancerous from harmless tumors before resorting to surgery. Ridgway et al. (2004) investigated the ability of MIB- 1 monoclonal 
+# antibodies, which detect rapidly proliferating cells with staining, to distinguish known breast tumor types from biopsies on a postoperative sample. The following 
+# measurements were taken to determine whether the MIB-1 index measured on biopsy is associated with whole tumor size. The MIB-1 index was measured double-blind on histological sections of tumor tissue by the number of stained cells counted at a particular microscope magnification.
+# Read the problem in the textbook but answer the questions here (it is basically the same but I specify the steps).
+# a)	Download the data, and make an appropriate graph 
+# b)	Check the assumptions and make the correct conclusion. 
+# c) Using the appropriate method, and without transforming the data, test where there is an association between MIB-1 index and tumor size. 
 
 biopsy <- read.csv(url("https://whitlockschluter3e.zoology.ubc.ca/Data/chapter16/chap16q24AntibodyTumorScreening.csv"))
 biopsy
@@ -33,6 +39,12 @@ SE
 
 # 2
 # chapter 17, question 29
+# Theory in ecology predicts that species with a large number of individuals will be larger targets for diseases. Parker et al. (2015) tested the idea in grassland plants. They measured the abundance of each of 43 species of plants (calculated as percent cover) and used this to predict the mean percentage of tissue on the plants that showed signs of disease. A scatter plot of their data is shown below. The data are available online at whitlockschluter3e.zoology.ubc.ca
+# Read the description of the problem in the textbook but answer the questions here (it is basically parts a and b, but with the steps specified).
+# a)	Download the data and test the assumptions. You should have a conclusion for each one. 
+# b)	Perform a log transformation on both variables, and test assumptions again using the transformed X and Y #
+# c)	Using the transformed data, test the null hypothesis of no relationship between plant abundance and percent of tissue showing disease.
+
 grassland <- read.csv(url("https://whitlockschluter3e.zoology.ubc.ca/Data/chapter17/chap17q29grasslandDisease.csv"))
 head(grassland)
 
@@ -113,5 +125,6 @@ ggplot(data = grassland, aes(x = logAb, y = logPD))+
   geom_smooth(method = "lm", se = FALSE)+
   xlab(" Plant abundace (% cover")+
   ylab("Percent of tissue showing disease (mean %)")
+
 
 
